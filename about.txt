@@ -1,0 +1,8 @@
+This is a translator for harmony to python and python to Harmony it also acts as a bridge between the unfiltered rust add-on for Python and python itself
+This is not meant to be mod itself This is supposed to help Other people from making mods 
+
+There's a couple things you need to know If you are making a mod With this
+1. This mod uses a lot of API files To make Error catching and Mod detection easier If your mod has custom error catching You have to have a "Resources" Directory and a custom_error_log.json or upload it here so that if this mod detects it it will know how to react to your bugs
+2. If you are using the delegate process please look into the imports file inside of the GitHub for more information
+3. Inside of your XML Where the requirements are You can put three things Python, PHT, or, PRAP if you don't put those my mod doesn't know your mod exists and cannot log errors nor can it properly get the config options from the API file here
+4. If your mod has custom features that you want to be able to edit Like a config Or settings You have to upload All important Config options Or buttons To the Website Because it makes it much easier for my Settings launcher to Detect Otherwise it will have to go into your resources Directory And it will only look for a file with the name config If it's a python file it will try and launch it If it's a txt It uses the custom file reading which you can find out how to do inside of the wiki 
